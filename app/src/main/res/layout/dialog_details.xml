@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="16dp"
+    android:orientation="vertical"
+    android:layout_marginRight="16dp"
+    android:layout_marginTop="16dp"
+    android:background="@android:color/white"
+    android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name: "
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/light_grey" />
+
+        <TextView
+            android:id="@+id/dialog_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="left|top"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:textColor="@color/dark_grey" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Path"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/light_grey" />
+
+        <TextView
+            android:id="@+id/dialog_path_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:gravity="left|top"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:textColor="@color/dark_grey" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Size"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/light_grey" />
+
+        <TextView
+            android:id="@+id/dialog_size_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:baselineAligned="false"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:textColor="@color/dark_grey" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="atimeMs"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/light_grey" />
+
+        <TextView
+            android:id="@+id/dialog_atimeMs_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:baselineAligned="false"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:textColor="@color/dark_grey" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="mtimeMs"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/light_grey" />
+
+        <TextView
+            android:id="@+id/dialog_mtimeMs_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:baselineAligned="false"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:textColor="@color/dark_grey" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ctimeMs"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/light_grey" />
+
+        <TextView
+            android:id="@+id/dialog_ctimeMs_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:baselineAligned="false"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:textColor="@color/dark_grey" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="birthtimeMs"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/light_grey" />
+
+        <TextView
+            android:id="@+id/dialog_birthtimeMs_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:baselineAligned="false"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:textColor="@color/dark_grey" />
+
+        <Button
+            android:id="@+id/dialog_ok"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ok"
+            android:textColor="@color/tcolor" />
+
+    </LinearLayout>
+</LinearLayout>
